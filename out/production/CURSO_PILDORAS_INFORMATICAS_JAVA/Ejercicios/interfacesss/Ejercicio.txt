@@ -1,0 +1,15 @@
+En este ejercicio se crearán dos clases con los nombres de “Coche” y “Moto”.
+Ambas clases tendrán una propiedad con el nombre de VELOCIDAD_MAXIMA=120 y tres comportamientos con los nombres de ACELERAR, FRENAR y PLAZAS.
+
+El comportamiento PLAZAS debe devolver el nº de plazas de motos y coches, siendo de 2 en al caso de las motos y 5 en el caso de los coches.
+
+Los comportamientos ACELERAR Y FRENAR  deben incrementar o decrementar la velocidad del coche o la moto la cantidad que se le pase por parámetro a los métodos
+que determinan ambos comportamientos. En caso de que la velocidad supere la VELOCIDAD_MAXIMA establecida en la propiedad,
+el método ACELERAR debe informar que la velocidad máxima ha sido superada.
+
+Tanto la propiedad como los comportamientos deben ser definidos en una interfaz con el nombre “Vehiculo” para que sea obligado su desarrollo en las clases “Moto” y “Coche”.
+
+Los objetos de tipo “Coche” y “Moto” tendrán una velocidad inicial establecida en su constructor.
+
+En la clase principal se creará un array de tipo Vehiculo donde se almacenarán objetos de tipo “Coche” y “Moto”.
+Usaremos los comportamientos ACELERAR, FRENAR Y PLAZAS con dichos objetos para comprobar su buen funcionamiento.
